@@ -3,6 +3,7 @@
 ## Table of contents
 
 - [Installation](#installation)
+- [Usage](#usage)
 
 ## Installation
 
@@ -11,31 +12,33 @@
 ```
 sudo apt install -y
 ```
-# Install neovim
+## Install neovim
 ```
 sudo apt install -y neovim
 ```
 
-# Install shfmt
+## Install shfmt
 ```
 sudo apt install -y shfmt
 ```
 
-# Install golang
+## Install golang
 ```
 sudo apt install -y golang-go
 ```
 
-# Install black (Python formatter)
+## Install black (Python formatter)
 ```
 sudo apt install -y black
 ```
-# Install silversearcher-ag
+## Install silversearcher-ag
 ```
 sudo apt install -y silversearcher-ag
 ```
 
-# Install exuberant-ctags
+## Install exuberant-ctags
 ```
 sudo apt install -y exuberant-ctags
 ```
+
+## Usage
