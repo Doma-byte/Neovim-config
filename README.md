@@ -65,7 +65,7 @@ sudo apt install -y exuberant-ctags
 - [`nvim-telescope/telescope.nvim`,`nvim-telescope/telescope-ui-select.nvim`] these plugins enhance file searching, navigation, and provide a UI selection mode within the Telescope plugin.
 - [`nvim-treesitter/nvim-treesitter`,`windwp/nvim-ts-autotag`] these plugins enhance syntax highlighting, indentation, and autotagging functionality.
 
-## Available Keybindings
+## Keybindings
 
 | Plugins                       | Insert Mode               | Normal Mode              | Visual Mode              |
 | ----------------------------- | ------------------------- | ------------------------ | ------------------------ |
@@ -88,6 +88,7 @@ sudo apt install -y exuberant-ctags
 
 
 [Note]:
+
 ```Soon will add the support for autocompletion and snippets and please help by contributing for windows support ```
 
 
