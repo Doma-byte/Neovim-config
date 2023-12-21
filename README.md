@@ -11,23 +11,37 @@
 
 ## Ubuntu
 
-```sudo apt install -y```
+```
+sudo apt install -y
+```
 ## Install neovim
-```sudo apt install -y neovim```
+```
+sudo apt install -y neovim
+```
 
 ## Install shfmt
-```sudo apt install -y shfmt```
+```
+sudo apt install -y shfmt
+```
 
 ## Install golang
-```sudo apt install -y golang-go```
+```
+sudo apt install -y golang-go
+```
 
 ## Install black (Python formatter)
-```sudo apt install -y black```
+```
+sudo apt install -y black
+```
 ## Install silversearcher-ag
-```sudo apt install -y silversearcher-ag```
+```
+sudo apt install -y silversearcher-ag
+```
 
 ## Install exuberant-ctags
-```sudo apt install -y exuberant-ctags```
+```
+sudo apt install -y exuberant-ctags
+```
 
 ## Usage
 
@@ -51,9 +65,30 @@
 - [`nvim-telescope/telescope.nvim`,`nvim-telescope/telescope-ui-select.nvim`] these plugins enhance file searching, navigation, and provide a UI selection mode within the Telescope plugin.
 - [`nvim-treesitter/nvim-treesitter`,`windwp/nvim-ts-autotag`] these plugins enhance syntax highlighting, indentation, and autotagging functionality.
 
-## Keybindings
+## Available Keybindings
+
+| Plugins                       | Insert Mode               | Normal Mode              | Visual Mode              |
+| ----------------------------- | ------------------------- | ------------------------ | ------------------------ |
+| commenting                    | `gcc`                     | `gc`                     |                          |
+| formatting                    |                           | `<space>fm`              |                          |
+| fzf (files)                   |                           | `<space>f`               |                          |
+| fzf (buffer)                  |                           | `<space>b`               |                          |
+| fzf (history)                 |                           | `<space>h`               |                          |
+| fzf (by word :ag)             |                           | `<space>k`               |                          |
+| lsp (hover)                   |                           | `K`                      |                          |
+| lsp (definition)              |                           | `gd`                     |                          |
+| lsp (code_action)             |                           | `v`                      |                          |
+| neo-tree (filesystem)         |                           | `<Ctrl>f`                |                          |
+| neo-tree (float)              |                           | `<Ctrl>a`                |                          |
+| nvimTree (Rename)             |                           | `<Ctrl>j`                |                          |
+| nvimtree (toggletree)         |                           | `<Ctrl>n`                |                          |
+| tagbar                        |                           | `f8`                     |                          |
+| telescope (find files)        |                           | `<Ctrl>p`                |                          |
+| telescope (live grep)         |                           | `<space>fg`              |                          |
 
 
-
-Note:
+[Note]:
 ```Soon will add the support for autocompletion and snippets and please help by contributing for windows support ```
+
+
+                                                            ~NeoVim Recommended Plugins Lua file by Dikshit singh
