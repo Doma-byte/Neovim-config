@@ -1,10 +1,10 @@
-return {
-    {
-      "preservim/tagbar",
-      config = function()
+return {{
+    "preservim/tagbar",
+    config = function()
         vim.g.tagbar_autofocus = true
-        vim.api.nvim_set_keymap('n', '<F8>', ':TagbarToggle<CR>', { noremap = true, silent = true })
-      end
-    },
-  }
-  
+        vim.api.nvim_set_keymap('n', '<F8>', ':TagbarToggle<CR>', {
+            noremap = true,
+            silent = true
+        })
+    end
+}}
