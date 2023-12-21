@@ -92,4 +92,4 @@ sudo apt install -y exuberant-ctags
 ```Soon will add the support for autocompletion and snippets and please help by contributing for windows support ```
 
 
-                                                            ~NeoVim Recommended Plugins Lua file by Dikshit singh
+                                                       ~NeoVim Recommended Plugins Lua file by Dikshit singh
