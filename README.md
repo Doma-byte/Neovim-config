@@ -85,6 +85,9 @@ sudo apt install -y exuberant-ctags
 | tagbar                        |                           | `f8`                     |                          |
 | telescope (find files)        |                           | `<Ctrl>p`                |                          |
 | telescope (live grep)         |                           | `<space>fg`              |                          |
+| vertically split file         |                           | `<Ctrl>t`                |                          |
+| Mason (linter + formatter)    |                           | `<Ctrl>m`                |                          |
+
 
 
 [Note]:
