@@ -93,6 +93,17 @@ sudo apt install -y exuberant-ctags
 | vertically split file         |                           | `<Ctrl>t`                |                          |
 | Mason (linter + formatter)    |                           | `<Ctrl>m`                |                          |
 
+## Mason Installation
 
+1. Enter into nvim with any projects.
+2. Make sure you're in normal mode and then type ```:Mason``` and enter.
+3. Now install all the necessary formatter and linters.
+    - Press 2 to download LSP and use ```/<name>```
+        - Download these LSP ```pyright, lua-language-server, bash-language-server, css-lsp, html-lsp, json-lsp, typescript-language-server```
+        [NOTE:] To download <Enter> and press <i> for install
+    - Press 4 to download Linter
+        - Download this linter ```eslint_d```
+    - Press 5 to download formatter
+        - Download these formatter ```black, isort, prettier, stylua```
 
                                                        ~NeoVim Recommended Plugins Lua file by Dikshit singh
