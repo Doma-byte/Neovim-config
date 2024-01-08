@@ -110,10 +110,9 @@ sudo apt install -y exuberant-ctags
 
     - Press 2 to download LSP and use `/<name>`
       - Download these LSP `pyright, lua-language-server, bash-language-server, css-lsp, html-lsp, json-lsp, typescript-language-server`
-    [NOTE]: To download <Enter> and press `i` for install
-    - Press 4 to download Linter
-      - Download this linter `eslint_d`
-    - Press 5 to download formatter
-      - Download these formatter `black, isort, prettier, stylua`
+    - Press 4 to download Linter `eslint_d`
+    - Press 5 to download formatter `black, isort, prettier, stylua`
+  
+[NOTE]: To download <Enter> and press `i` for install
 
                                                      ~NeoVim Recommended Plugins Lua file by Dikshit singh
