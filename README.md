@@ -18,7 +18,8 @@ sudo apt update && sudo apt upgrade -y
 - Run this cmd to download neovim with wget ```wget https://github.com/neovim/neovim/releases/download/v0.9.5/nvim-linux64.tar.gz```
 - Extract with tar ```tar xzvf nvim-linux64.tar.gz```
 - open bash_alises (dotfile) with ```nano ~/.bash_aliases```
-- Add this line ```alias nvim="~/./nvim-linux64/bin/nvim```
+- Add this line ```alias nvim="~/./nvim-linux64/bin/nvim"``` and save it.
+- Source the dotfile ```source ~/.bash_aliases```
 - Make a dotfolder if not exists ```mkdir ~/.config```
 - Go inside to this dotfolder ```cd ~/.config``` and make another folder ```mkdir nvim``` inside the .config folder
 - Now go inside nvim folder and clone this repo ```git clone https://github.com/Doma-byte/Neovim-config.git``` and paste all repo files in nvim folder
