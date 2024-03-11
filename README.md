@@ -81,26 +81,29 @@ sudo apt install -y exuberant-ctags
 
 ## Keybindings
 
-| Plugins                    | Insert Mode | Normal Mode | Visual Mode |
-| -------------------------- | ----------- | ----------- | ----------- |
-| commenting                 | `gcc`       | `gc`        |             |
-| formatting                 |             | `<space>fm` |             |
-| fzf (files)                |             | `<space>f`  |             |
-| fzf (buffer)               |             | `<space>b`  |             |
-| fzf (history)              |             | `<space>h`  |             |
-| fzf (by word :ag)          |             | `<space>k`  |             |
-| lsp (hover)                |             | `K`         |             |
-| lsp (definition)           |             | `gd`        |             |
-| lsp (code_action)          |             | `v`         |             |
-| neo-tree (filesystem)      |             | `<Ctrl>f`   |             |
-| neo-tree (float)           |             | `<Ctrl>a`   |             |
-| nvimTree (Rename)          |             | `<Ctrl>j`   |             |
-| nvimtree (toggletree)      |             | `<Ctrl>n`   |             |
-| tagbar                     |             | `f8`        |             |
-| telescope (find files)     |             | `<Ctrl>p`   |             |
-| telescope (live grep)      |             | `<space>fg` |             |
-| vertically split file      |             | `<Ctrl>t`   |             |
-| Mason (linter + formatter) |             | `<Ctrl>m`   |             |
+| Plugins                    | Insert Mode | Normal Mode | Visual Mode |   Commands  |
+| -------------------------- | ----------- | ----------- | ----------- | ----------- |
+| commenting                 | `gcc`       | `gc`        |             |             |        
+| formatting                 |             | `<space>fm` |             |             |
+| fzf (files)                |             | `<space>f`  |             |             |
+| fzf (buffer)               |             | `<space>b`  |             |             |
+| fzf (history)              |             | `<space>h`  |             |             |
+| fzf (by word :ag)          |             | `<space>k`  |             |             |
+| lsp (hover)                |             | `K`         |             |             |
+| lsp (definition)           |             | `gd`        |             |             |
+| lsp (code_action)          |             | `v`         |             |             |
+| neo-tree (filesystem)      |             | `<Ctrl>f`   |             |             |
+| neo-tree (float)           |             | `<Ctrl>a`   |             |             |
+| nvimTree (Rename)          |             | `<Ctrl>j`   |             |             |
+| nvimtree (toggletree)      |             | `<Ctrl>n`   |             |             |
+| tagbar                     |             | `f8`        |             |             |
+| telescope (find files)     |             | `<Ctrl>p`   |             |             |
+| telescope (live grep)      |             | `<space>fg` |             |             |
+| vertically split file      |             | `<Ctrl>t`   |             |             |
+| Mason (linter + formatter) |             | `<Ctrl>m`   |             |             |
+| Gitsigns (Preview Hunk)    |             | `<space>gp` |             |             |
+| Gitsigns (blame)           |             | `<space>gt` |             |             |
+| Gitsigns/all_cmd           |             |             |             | `Git <cmd>` |
 
 ## Mason Installation
 
