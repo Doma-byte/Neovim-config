@@ -104,7 +104,9 @@ sudo apt install -y exuberant-ctags
 | Gitsigns (Preview Hunk)    |             | `<space>gp` |             |             |
 | Gitsigns (blame)           |             | `<space>gt` |             |             |
 | Gitsigns/all_cmd           |             |             |             | `Git <cmd>` |
-
+| Debugger (break point)     |             | `<space>dt` |             |             |
+| Debugger (visuals)         |             | `<space>dc` |             |             |
+| Session toggler            |             | `<space>ls` |             |             |
 ## Mason Installation
 
 1.  Enter into nvim with any projects.

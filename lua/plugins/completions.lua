@@ -12,6 +12,9 @@ return {
 		lazy = false,
 		config = true,
 	},
+--   {
+--     "github/copilot.vim", // for future reference
+--   },
 	{
 		"hrsh7th/nvim-cmp",
 		lazy = false,
